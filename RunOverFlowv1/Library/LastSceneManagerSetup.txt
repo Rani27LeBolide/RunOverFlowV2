@@ -1,0 +1,19 @@
+sceneSetups:
+- path: Assets/level1.1.unity
+  isLoaded: 0
+  isActive: 0
+- path: Assets/Option.unity
+  isLoaded: 0
+  isActive: 0
+- path: Assets/CarteSolo.unity
+  isLoaded: 0
+  isActive: 0
+- path: Assets/Menu principal.unity
+  isLoaded: 1
+  isActive: 1
+- path: Assets/SoloMulti.unity
+  isLoaded: 0
+  isActive: 0
+- path: Assets/CarteMulti.unity
+  isLoaded: 0
+  isActive: 0
