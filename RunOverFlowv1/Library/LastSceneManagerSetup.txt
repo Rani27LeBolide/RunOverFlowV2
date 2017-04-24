@@ -20,3 +20,6 @@ sceneSetups:
 - path: Assets/Mapcanyon.unity
   isLoaded: 1
   isActive: 1
+- path: Assets/MapcanyonMulti.unity
+  isLoaded: 0
+  isActive: 0

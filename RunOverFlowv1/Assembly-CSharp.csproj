@@ -215,6 +215,8 @@
      <Compile Include="Assets\PhotonChatApi\IChatClientListener.cs" />
      <Compile Include="Assets\Scripts\CameraController.cs" />
      <Compile Include="Assets\Scripts\CameraFollow.cs" />
+     <Compile Include="Assets\Scripts\CanyonMultiLoad.cs" />
+     <Compile Include="Assets\Scripts\DesertiqueMapLoad.cs" />
      <Compile Include="Assets\Scripts\GUIController.cs" />
      <Compile Include="Assets\Scripts\GameManager.cs" />
      <Compile Include="Assets\Scripts\LevelScripts\ControlsTutorial.cs" />
@@ -223,12 +225,13 @@
      <Compile Include="Assets\Scripts\LoadMenu.cs" />
      <Compile Include="Assets\Scripts\LoadMontagnusMulti.cs" />
      <Compile Include="Assets\Scripts\MenuPause.cs" />
+     <Compile Include="Assets\Scripts\MultiPlayerControllercanyon.cs" />
      <Compile Include="Assets\Scripts\Option.cs" />
-     <Compile Include="Assets\Scripts\PlayerController.cs" />
      <Compile Include="Assets\Scripts\PlayerScripts\PlayerControl.cs" />
      <Compile Include="Assets\Scripts\Quit.cs" />
      <Compile Include="Assets\Scripts\Rotator.cs" />
      <Compile Include="Assets\Scripts\SettingsManager.cs" />
+     <Compile Include="Assets\Scripts\SoloPlayerControllercanyon.cs" />
      <Compile Include="Assets\Scripts\SyncPerso.cs" />
      <Compile Include="Assets\Scripts\camerafollow1.cs" />
      <Compile Include="Assets\Scripts\loadcartemulti.cs" />
@@ -267,9 +270,6 @@
      <None Include="Assets\Photon Unity Networking\Demos\DemoRockPaperScissors\Assets\OpenSans\Apache License.txt" />
      <None Include="Assets\readme.txt" />
      <None Include="Assets\Photon Unity Networking\changelog.txt" />
- <Reference Include="UnityEngine.Advertisements">
- <HintPath>D:/Unity/Editor/Data/UnityExtensions/Unity/Advertisements/UnityEngine.Advertisements.dll</HintPath>
- </Reference>
  <Reference Include="UnityEngine.UI">
  <HintPath>D:/Unity/Editor/Data/UnityExtensions/Unity/GUISystem/UnityEngine.UI.dll</HintPath>
  </Reference>
@@ -284,9 +284,6 @@
  </Reference>
  <Reference Include="UnityEngine.HoloLens">
  <HintPath>D:/Unity/Editor/Data/UnityExtensions/Unity/UnityHoloLens/RuntimeEditor/UnityEngine.HoloLens.dll</HintPath>
- </Reference>
- <Reference Include="UnityEngine.Purchasing">
- <HintPath>D:/Unity/Editor/Data/UnityExtensions/Unity/UnityPurchasing/UnityEngine.Purchasing.dll</HintPath>
  </Reference>
  <Reference Include="UnityEngine.VR">
  <HintPath>D:/Unity/Editor/Data/UnityExtensions/Unity/UnityVR/RuntimeEditor/UnityEngine.VR.dll</HintPath>

@@ -8,6 +8,7 @@ TagManager:
   - Bonus
   - joueur
   - musique
+  - CheckPoint
   layers:
   - Default
   - TransparentFX
