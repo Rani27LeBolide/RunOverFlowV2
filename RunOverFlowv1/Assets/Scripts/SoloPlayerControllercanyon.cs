@@ -271,10 +271,13 @@ public class SoloPlayerControllercanyon : MonoBehaviour
                 Debug.Log(counttours);
             }
         }
-        if (CheckPointarrivée)
-        {
-            // Création d'une scéne pour gagnant 
-        }
+        
+        
+            // Création d'une scéne pour gagnant du nombre n de tours
+        
+
+    }
+    void TimeToSetReActive(GameObject objet){  // Fonction qui va faire respawn au bout de n seconde l'objet
 
     }
 
